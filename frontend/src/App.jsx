@@ -16,7 +16,7 @@ function App() {
     setAnswer("Loading...");
 
     try {
-      const res = await axios.post("http://localhost:5000/api/pet-ai", {
+      const res = await axios.post("https://pet-ai-app-backend.onrender.com/api/pet-ai", {
         petType,
         ageGroup,
         question,
